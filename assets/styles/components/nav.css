@@ -1,0 +1,22 @@
+
+.nav{
+    padding: 10px 0;
+    display: flex;
+}
+.nav__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav__icon{
+    width: 100px;
+    color: #ffffff;
+    fill: #ffffff;
+}
+
+.nav__icon-img{
+    width: 30px;
+    height: 30px;
+}

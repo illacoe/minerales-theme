@@ -1,2 +1,1 @@
-# This is a web template
-https://illacoe.github.io/minerales-theme/
+# Template created with HTML and CSS
