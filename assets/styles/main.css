@@ -7,7 +7,7 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: #000000;
+    background-color: #9340d6;
 }
 .container{
     width: 100%;
@@ -16,10 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-}
-.app{
-    height: 90vh;
-    width: 100%;
 }
  
 .section{ 

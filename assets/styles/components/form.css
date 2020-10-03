@@ -1,26 +1,48 @@
-.section{
-    display: flex;
-}
+ .section{
+     display: inline-flex;
+ }
 .section__title{
     font-size: 40px;
     color: #ffffff;
 }
-
+.app__form{
+    display: flex;
+    flex-direction: column;
+}
 .section__form{
     display: flex;
     flex-direction: column;
 }
 .section__form-pass{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }
 .section__input{
     margin-top: 20px; 
     padding: 10px 5px;
     font-size: 14px;
+    border:none;
+    min-width: 50px;
 }
 
 .section__input-checkbox{
     color: #ffffff;
+
+}
+
+.section__form-checkbox{
+    margin-bottom: 30px;
+}
+.section__form-btn{
+    padding: 10px 5px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border:none;
+    transition: all .3s;
+}
+.section__form-btn:hover{
+background-color: #ffefd4;
 }
 
 @media (max-width: 308px){

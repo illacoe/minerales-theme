@@ -1,4 +1,6 @@
-
+ .header{
+     display: inline-flex;
+ }
 .nav{
     padding: 10px 0;
     display: flex;
