@@ -34,5 +34,6 @@ body {
 @media (max-width: 768px){
     .container{
         padding: 0 4%;
+        max-width: 240px;
     }
 }
