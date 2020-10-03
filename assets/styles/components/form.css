@@ -22,3 +22,13 @@
 .section__input-checkbox{
     color: #ffffff;
 }
+
+@media (max-width: 308px){
+    .container{
+        padding: 0 4%;
+        max-width: 100%;
+    }
+    .section__form-pass{
+        display: block;
+    }
+}
