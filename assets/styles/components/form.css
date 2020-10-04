@@ -1,14 +1,11 @@
  .section{
      display: inline-flex;
  }
-.section__title{
+.section__title-form{
     font-size: 40px;
     color: #ffffff;
 }
-.app__form{
-    display: flex;
-    flex-direction: column;
-}
+
 .section__form{
     display: flex;
     flex-direction: column;
@@ -24,8 +21,12 @@
     font-size: 14px;
     border:none;
     min-width: 50px;
+    background-color: #373737;
+    color: #cecece;
 }
-
+.section__input::placeholder{
+    color: #cecece;
+}
 .section__input-checkbox{
     color: #ffffff;
 
@@ -33,6 +34,7 @@
 
 .section__form-checkbox{
     margin-bottom: 30px;
+ 
 }
 .section__form-btn{
     padding: 10px 5px;

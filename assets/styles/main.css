@@ -1,5 +1,6 @@
 @import './components/nav.css'; 
 @import './components/form.css'; 
+@import './components/hero.css'; 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap');
 *{
@@ -7,17 +8,31 @@
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 body {
-    background-color: #9340d6;
+    background-color: #000000;
 }
 .container{
     width: 100%;
-    max-width: 500px;
+    max-width: 700px;
     padding: 0 10%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
 }
- 
+.app{
+    display: flex; 
+}
+.app__hero{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #44eb7c;
+    height: 100vh;
+}
+.app__form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
 .section{ 
     height: 100%;
 }
@@ -31,5 +46,11 @@ body {
     .container{
         padding: 0 4%;
         max-width: 100%;
+    }
+    .app__hero{
+        display: none;
+    }
+    .app__form{
+        width: 100%;
     }
 }

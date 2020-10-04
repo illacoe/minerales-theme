@@ -1,0 +1,13 @@
+.section__title-h1{
+    color: #000000;
+    font-size: 90%;
+    font-weight: lighter;
+}
+.section__title{
+    font-size: 40px;
+    padding: 20px 60px;
+}
+.section__img{
+    height: 100%;
+min-height: 50%;
+}
